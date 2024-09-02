@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@next/swc-win32-x64-msvc": "^14.2.7",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.22",
+    "next": "^14.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.1",
+    "@types/react": "18.3.4",
+    "typescript": "5.5.4"
+  }
+}
