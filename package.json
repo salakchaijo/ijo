@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "postinstall": "node -e \"let os = require('os'); if (os.platform() !== 'win32') process.exit(0);\"",
+    "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,9 +16,12 @@
     "@swc/core": "^1.7.22"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "typescript": "^5.2.2"
   }
-  
 }
